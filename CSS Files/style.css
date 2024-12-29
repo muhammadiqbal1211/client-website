@@ -1,0 +1,78 @@
+.navbg {
+    background-color: #1A3B5D !important;
+    color: white !important;
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: white;
+    --bs-navbar-hover-color: #FF5722;
+    --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
+    --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-brand-padding-y: 0.3125rem;
+    --bs-navbar-brand-margin-end: 1rem;
+    --bs-navbar-brand-font-size: 1.25rem;
+    --bs-navbar-brand-color: white;
+    --bs-navbar-brand-hover-color: #FF5722;
+    --bs-navbar-nav-link-padding-x: 0.5rem;
+    --bs-navbar-toggler-padding-y: 0.25rem;
+    --bs-navbar-toggler-padding-x: 0.75rem;
+    --bs-navbar-toggler-font-size: 1.25rem;
+    --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+    --bs-navbar-toggler-border-color: white;
+    --bs-navbar-toggler-border-radius: var(--bs-border-radius);
+    --bs-navbar-toggler-focus-width: 0.25rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+.home-tc{
+    color: white;
+}
+.img-centre{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+
+}
+.form-head{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    color: #1A3B5D ;
+}
+.form-head:hover{
+    color: #FF5722;
+   
+}
+.banner {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+/* .img-centre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+.footer {
+    margin: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 4px;
+    box-shadow: 0 0 10px #777777;
+    padding-top: 100px;
+
+}
+
+.footer-div {
+    padding-bottom: 100px;
+}

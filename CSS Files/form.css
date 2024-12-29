@@ -1,0 +1,132 @@
+.form-head{
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 75px;
+    color: #1A3B5D ;
+}
+/* signup container  */
+.sign-up-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+/* Form Container */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Form */
+.sign-in-form {
+    margin: 25px 125px 25px 125px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-form h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1A3B5D;
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #4A4A4A;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-group input:focus {
+    border-color: #1A3B5D;
+    outline: none;
+}
+
+/* Button */
+.btn {
+    background-color: #1A3B5D;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2C6E49;
+}
+
+/* Sign Up Text */
+.signup-text {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    color: #4A4A4A;
+}
+
+.signup-text a {
+    color: #1A3B5D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-text a:hover {
+    color: #D4AF37;
+    text-decoration: underline;
+}
+/* footer  */
+.footer {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 4px;
+    box-shadow: 0 0 10px #777777;
+    padding-top: 100px;
+
+}
+
+.footer-div {
+    padding-bottom: 100px;
+}
+
+.footer-p {
+    padding: 4px;
+}
