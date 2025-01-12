@@ -3,6 +3,12 @@
     text-align: center;
     margin-top: 75px;
     color: #1A3B5D ;
+    font-family: "Seaweed Script";
+}
+.form-head:hover{
+    color: #FF5722;
+    transition: transform 0.3s ease;
+   
 }
 /* signup container  */
 .sign-up-container{
@@ -85,10 +91,12 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    
 }
 
 .btn:hover {
     background-color: #2C6E49;
+    transition-duration: 0.3s;
 }
 
 /* Sign Up Text */
@@ -108,4 +116,14 @@ body {
 .signup-text a:hover {
     color: #D4AF37;
     text-decoration: underline;
+}
+.img-hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.img-hover:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translatex(-10px);
 }

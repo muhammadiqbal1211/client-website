@@ -28,26 +28,33 @@
     justify-content: space-between;
     padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
-.home-tc{
+
+.home-tc {
     color: white;
 }
-.img-centre{
+
+.img-centre {
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
 
 }
-.form-head{
+
+.form-head {
     font-size: 3rem;
     text-align: center;
     margin-top: 75px;
     margin-bottom: 75px;
-    color: #1A3B5D ;
+    color: #1A3B5D;
+    font-family: "Seaweed Script";
 }
-.form-head:hover{
+
+.form-head:hover {
     color: #FF5722;
-   
+    transition: transform 0.3s ease;
+
 }
+
 .banner {
     margin-top: 50px;
     display: flex;
@@ -55,11 +62,18 @@
     justify-content: center;
     overflow: hidden;
 }
-/* .img-centre{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
+
+.img-hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.img-hover:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translatex(-10px);
+}
+
 .footer {
     margin: 50px;
     margin-bottom: 10px;
